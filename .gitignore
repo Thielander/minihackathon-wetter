@@ -1,0 +1,12 @@
+# Ignore .env file
+.env
+
+# Ignore vendor directory
+/vendor
+
+# Ignore .vscode directory
+.vscode
+
+# General ignore rules
+.DS_Store
+Thumbs.db
