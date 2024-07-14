@@ -2,6 +2,7 @@
 
 Dieses Projekt zeigt aktuelle Wetterdaten basierend auf der Geolocation des Benutzers an und bietet zusätzlich Kleider- und Aktivitätsempfehlungen basierend auf den Wetterdaten. Es nutzt die Open-Meteo API für Wetterdaten und die OpenAI API für Empfehlungen.
 
+DEMO: https://wetter.digitalberater.berlin
 ## Installation
 
 ### Voraussetzungen
