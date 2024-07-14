@@ -24,8 +24,10 @@ $wind_speed = $_GET['wind_speed'];
 $precipitation_probability = $_GET['precipitation_probability'];
 
 // Abfragen vorbereiten
-$clothingPrompt = "Schlage anhand der folgenden Wetterdaten geeignete Kleidung vor: Temperature: {$temperature}°C, Windgeschwindigkeit: {$wind_speed} km/h, Niederschlagswahrscheinlichkeit: {$precipitation_probability}%";
-$activityPrompt = "Schlage anhand der folgenden Wetterdaten Aktivitäten für heute vor: Temperature: {$temperature}°C, Windgeschwindigkeit: {$wind_speed} km/h, Niederschlagswahrscheinlichkeit: {$precipitation_probability}%";
+$clothingPrompt = "Schlagen Sie auf der Grundlage der folgenden Wetterdaten geeignete Kleidung vor. Berücksichtigen Sie die Temperatur, die Windgeschwindigkeit und die Niederschlagswahrscheinlichkeit, und geben Sie praktische und der Jahreszeit entsprechende Ratschläge: {$temperature}°C, Windgeschwindigkeit: {$wind_speed} km/h, Niederschlagswahrscheinlichkeit: {$precipitation_probability}%";
+$activityPrompt = "Schlage auf der Grundlage der folgenden Wetterdaten Aktivitäten für heute vor. Berücksichtigen Sie die Temperatur, die Windgeschwindigkeit und die Niederschlagswahrscheinlichkeit und geben Sie praktische und der Jahreszeit entsprechende Ratschläge: Temperature: {$temperature}°C, Windgeschwindigkeit: {$wind_speed} km/h, Niederschlagswahrscheinlichkeit: {$precipitation_probability}%";
+
+
 // Funktion zur Abfrage der OpenAI API
 function queryOpenAI($prompt, $apiKey) {
     $apiUrl = "https://api.openai.com/v1/completions";

@@ -29,5 +29,5 @@ DEMO: https://wetter.digitalberater.berlin
     composer install
     ```
 
-3. **Achtung**
-  Das ist nur eine Demo. die .env Datei liegt normalerweise nicht im Hauptverzeichnis.
+4. **Achtung**
+  Das ist nur eine Demo. Das Projekt bitte in der Form nicht benutzen.
